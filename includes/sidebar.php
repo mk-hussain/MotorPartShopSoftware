@@ -36,7 +36,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Spare Parts Management</title>
+  <title>Spare Parts Management Software</title>
 
   <!-- Custom fonts for this template-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -55,11 +55,11 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-text mx-3">Spare Parts Management</div>
+        <div class="sidebar-brand-text mx-3">Spare Parts Management Software</div>
       </a>
 
       <!-- Divider -->
@@ -109,11 +109,6 @@
         <a class="nav-link" href="Supplier.php">
        
           <span>Supplier</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Report.php">
-       
-          <span>Report</span></a>
       </li>
       
       
