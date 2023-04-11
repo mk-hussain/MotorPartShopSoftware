@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -24,7 +24,7 @@ include'../includes/sidebar.php';
             <div class="card-header py-3">
               <h4 class="m-2 font-weight-bold text-primary">Product's Detail</h4>
             </div>
-            <a href="product.php?action=add" type="button" class="btn btn-primary bg-gradient-primary btn-block"> <i class="fas fa-flip-horizontal fa-fw fa-share"></i> Back</a>
+            <a href="product.php?action=add" type="button" class="btn btn-primary bg-gradient-success btn-block"> <i class="fas fa-flip-horizontal fa-fw fa-share"></i> Back</a>
             <div class="card-body">
           <?php 
             $query = 'SELECT PRODUCT_ID, PRODUCT_CODE, NAME,DESCRIPTION, COUNT(`QTY_STOCK`) AS "QTY_STOCK", COUNT(`ON_HAND`) AS "ON_HAND",PRICE, c.CNAME FROM product p join category c on p.CATEGORY_ID=c.CATEGORY_ID WHERE PRODUCT_CODE ='.$_GET['id'];
@@ -110,7 +110,7 @@ include'../includes/sidebar.php';
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0"> 
+                <table class="table table-striped" id="dataTable" width="100%" cellspacing="0"> 
                <thead>
                    <tr>
                      <th>Product Code</th>

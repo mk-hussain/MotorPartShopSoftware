@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -49,13 +49,13 @@ $opt .= "</select>";
             <div class="card-header py-3">
               <h4 class="m-2 font-weight-bold text-primary">Edit Inventory for : <?php echo $A ?></h4>
             </div>
-            <a type="button" class="btn btn-primary bg-gradient-primary" href="inv_searchfrm.php?action=edit & id='<?php echo $zzz; ?>'"><i class="fas fa-fw fa-flip-horizontal fa-share"></i> Back</a>
+            <a type="button" class="btn btn-primary bg-gradient-success" href="inv_searchfrm.php?action=edit & id='<?php echo $zzz; ?>'"><i class="fas fa-fw fa-flip-horizontal fa-share"></i> Back</a>
                 
             <div class="card-body">
 
             <form role="form" method="post" action="inv_edit1.php">
               <input type="hidden" name="idd" value="<?php echo $zz; ?>" />
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Product Code:
                 </div>
@@ -63,7 +63,7 @@ $opt .= "</select>";
                   <input class="form-control" value="<?php echo $zzz; ?>" readonly>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Product Name:
                 </div>
@@ -71,7 +71,7 @@ $opt .= "</select>";
                   <input class="form-control" value="<?php echo $A; ?>" readonly>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Quantity:
                 </div>
@@ -79,7 +79,7 @@ $opt .= "</select>";
                   <input class="form-control" placeholder="Quantity" name="qty" value="<?php echo $B; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  On Hand:
                 </div>
@@ -87,7 +87,7 @@ $opt .= "</select>";
                   <input class="form-control" placeholder="On Hand" name="oh" value="<?php echo $C; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Supplier:
                 </div>
@@ -95,7 +95,7 @@ $opt .= "</select>";
                   <input class="form-control" value="<?php echo $D; ?>" readonly>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Category:
                 </div>
@@ -105,7 +105,7 @@ $opt .= "</select>";
               </div>
               <hr>
 
-                <button type="submit" class="btn btn-warning btn-block"><i class="fa fa-edit fa-fw"></i>Update</button>    
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-edit fa-fw"></i>Update</button>    
               </form>  
             </div>
           </div></center>

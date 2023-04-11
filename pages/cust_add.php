@@ -15,7 +15,7 @@ if ($Aa=='User'){
            
              ?>    <script type="text/javascript">
                       //then it will be redirected
-                      alert("Restricted Page! You will be redirected to POS");
+                      alert("Restricted Page! You will be redirected to Point of Sale");
                       window.location = "pos.php";
                   </script>
              <?php   }
@@ -28,7 +28,7 @@ if ($Aa=='User'){
             <div class="card-header py-3">
               <h4 class="m-2 font-weight-bold text-primary">Add Customer</h4>
             </div>
-            <a href="customer.php" type="button" class="btn btn-primary bg-gradient-primary">Back</a>
+            <a href="customer.php" type="button" class="btn btn-primary bg-gradient-success">Back</a>
             <div class="card-body">
                         <div class="table-responsive">
                         <form role="form" method="post" action="cust_transac.php?action=add">

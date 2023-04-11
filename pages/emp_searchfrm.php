@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -40,7 +40,7 @@ include'../includes/sidebar.php';
             <div class="card-header py-3">
               <h4 class="m-2 font-weight-bold text-primary">Staff Detail</h4>
             </div>
-            <a href="employee.php" type="button" class="btn btn-primary bg-gradient-primary btn-block"> <i class="fas fa-flip-horizontal fa-fw fa-share"></i> Back </a>
+            <a href="employee.php" type="button" class="btn btn-primary bg-gradient-success btn-block"> <i class="fas fa-flip-horizontal fa-fw fa-share"></i> Back </a>
             <div class="card-body">
           
 

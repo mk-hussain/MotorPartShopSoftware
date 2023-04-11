@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -24,7 +24,7 @@ include'../includes/sidebar.php';
             <div class="card-header py-3">
               <h4 class="m-2 font-weight-bold text-primary">Supplier's Detail</h4>
             </div>
-            <a href="supplier.php?action=add" type="button" class="btn btn-primary bg-gradient-primary">Back</a>
+            <a href="supplier.php?action=add" type="button" class="btn btn-primary bg-gradient-success">Back</a>
             <div class="card-body">
           <?php 
             $query = 'SELECT SUPPLIER_ID, COMPANY_NAME, l.PROVINCE, l.CITY, PHONE_NUMBER FROM supplier e join location l on e.LOCATION_ID = l.LOCATION_ID WHERE e.SUPPLIER_ID ='.$_GET['id'];

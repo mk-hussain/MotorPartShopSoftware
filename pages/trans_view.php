@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -43,7 +43,7 @@ include'../includes/sidebar.php';
               <div class="form-group row text-left mb-0">
                 <div class="col-sm-9">
                   <h5 class="font-weight-bold">
-                    Spare Parts Management
+                    Spare Parts Management Software
                   </h5>
                 </div>
                
@@ -67,7 +67,7 @@ include'../includes/sidebar.php';
                   
                 </div>
               </div>
-          <table class="table table-bordered" width="100%" cellspacing="0">
+          <table class="table table-striped" width="100%" cellspacing="0">
             <thead>
               <tr>
                 <th>Spare parts</th>

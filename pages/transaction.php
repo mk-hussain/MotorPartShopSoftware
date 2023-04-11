@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -27,7 +27,7 @@ include'../includes/sidebar.php';
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0"> 
+                <table class="table table-striped" id="dataTable" width="100%" cellspacing="0"> 
                <thead>
                    <tr>
                      <th width="19%">Transaction Number</th>
@@ -52,7 +52,7 @@ include'../includes/sidebar.php';
                 echo '<td>'. $row['FIRST_NAME'].' '. $row['LAST_NAME'].'</td>';
                 echo '<td>'. $row['NUMOFITEMS'].'</td>';
                       echo '<td align="right">
-                              <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="trans_view.php?action=edit & id='.$row['TRANS_ID'] . '"></i> View</a>
+                              <a type="button" class="btn btn-primary bg-gradient-primary btn-block" href="trans_view.php?action=edit & id='.$row['TRANS_ID'] . '"></i> View</a>
                           </div> </td>';
                 echo '</tr> ';
                         }

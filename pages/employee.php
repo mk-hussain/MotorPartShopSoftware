@@ -15,7 +15,7 @@ if ($Aa=='User'){
            
              ?>    <script type="text/javascript">
                       //then it will be redirected
-                      alert("Restricted Page! You will be redirected to POS");
+                      alert("Restricted Page! You will be redirected to Point of Sale");
                       window.location = "pos.php";
                   </script>
              <?php   }
@@ -26,12 +26,12 @@ if ($Aa=='User'){
             
             <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h4 class="m-2 font-weight-bold text-primary">Employee&nbsp;<a  href="#" data-toggle="modal" data-target="#employeeModal" type="button" class="btn btn-primary bg-gradient-primary" style="border-radius: 0px;"><i class="fas fa-fw fa-plus"></i></a></h4>
+              <h4 class="m-2 font-weight-bold text-primary">Employee&nbsp;<a  href="#" data-toggle="modal" data-target="#employeeModal" type="button" class="btn btn-primary bg-gradient-success" style="border-radius: 0px;"><i class="fas fa-fw fa-plus"></i></a></h4>
             </div>
             
             <div class="card-body">
               <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0"> 
+                <table class="table table-striped" id="dataTable" width="100%" cellspacing="0"> 
                   <thead>
                         <tr>
                           <th>First Name</th>
@@ -61,10 +61,10 @@ if ($Aa=='User'){
 
                       echo '<td align="right">
                               
-                                  <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="emp_edit.php?action=edit & id='.$row['EMPLOYEE_ID']. '">
+                                  <a type="button" class="btn btn-primary bg-gradient-primary btn-block" href="emp_edit.php?action=edit & id='.$row['EMPLOYEE_ID']. '">
                                     </i> Edit
                                   </a>
-								  <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="emp_del.php?action=del & id='.$row['EMPLOYEE_ID']. '">
+								  <a type="button" class="btn btn-primary bg-gradient-primary btn-block" href="emp_del.php?action=del & id='.$row['EMPLOYEE_ID']. '">
                                    </i> Delete
 									</a>
                                 

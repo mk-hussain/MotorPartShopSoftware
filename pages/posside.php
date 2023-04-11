@@ -34,7 +34,7 @@ $opt .= "</select>";
           <div class="form-group row text-left mb-3">
             <div class="col-sm-12 text-primary btn-group">
             <?php echo $opt; ?>
-            <a  href="#" data-toggle="modal" data-target="#poscustomerModal" type="button" class="btn btn-primary bg-gradient-primary" style="border-radius: 0px;"><i class="fas fa-fw fa-plus"></i></a>
+            <a  href="#" data-toggle="modal" data-target="#poscustomerModal" type="button" class="btn btn-primary bg-gradient-success" style="border-radius: 0px;"><i class="fas fa-fw fa-plus"></i></a>
             </div>
 
           </div>
@@ -62,7 +62,7 @@ $opt .= "</select>";
           <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#posMODAL">SUBMIT</button>
 
         <!-- Modal -->
-        <div class="modal fade" id="posMODAL" tabindex="-1" role="dialog" aria-labelledby="POS" aria-hidden="true">
+        <div class="modal fade" id="posMODAL" tabindex="-1" role="dialog" aria-labelledby="Point of Sale" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               

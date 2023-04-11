@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -56,7 +56,7 @@ $opt .= "</select>";
           
             <form role="form" method="post" action="emp_edit1.php">
               <input type="hidden" name="id" value="<?php echo $zz; ?>" />
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  First Name:
                 </div>
@@ -64,7 +64,7 @@ $opt .= "</select>";
                   <input class="form-control" placeholder="First Name" name="firstname" value="<?php echo $fname; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Last Name:
                 </div>
@@ -72,7 +72,7 @@ $opt .= "</select>";
                   <input class="form-control" placeholder="Last Name" name="lastname" value="<?php echo $lname; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Gender:
                 </div>
@@ -84,7 +84,7 @@ $opt .= "</select>";
                   </select>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Email:
                 </div>
@@ -92,7 +92,7 @@ $opt .= "</select>";
                   <input class="form-control" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Contact no.:
                 </div>
@@ -100,7 +100,7 @@ $opt .= "</select>";
                    <input class="form-control" placeholder="Phone Number" name="phone" value="<?php echo $phone; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Role:
                 </div>
@@ -109,7 +109,7 @@ $opt .= "</select>";
                 </div>
               </div>
               
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Province:
                 </div>
@@ -117,7 +117,7 @@ $opt .= "</select>";
                   <input class="form-control" placeholder="Province" name="province" value="<?php echo $prov; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  City:
                 </div>
@@ -130,7 +130,7 @@ $opt .= "</select>";
 
               <hr>
 
-                <button type="submit" class="btn btn-warning btn-block"><i class="fa fa-edit fa-fw"></i>Update</button>    
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-edit fa-fw"></i>Update</button>    
               </form>  
                     
             </div>

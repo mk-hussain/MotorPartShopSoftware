@@ -16,7 +16,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Spare Parts Management</title>
+  <title>Spare Parts Management Software</title>
 
   <!-- Custom fonts for this template-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -27,16 +27,16 @@
 
 </head>
 
-<body >
-
-  <div class="container">
+<body style="background-image: url('moto.jpg');">
+  
+  <div class="container" >
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
     
 
-        <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card o-hidden border-0 shadow-lg my-5 " >
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
 			
@@ -46,7 +46,7 @@
              
 
                   
-                    <h1 class="h4 text-gray-900 mb-4">Welcome to Spare parts Management</h1>
+                    <h1 class="h4 text-black-900 mb-4">Welcome to Spare Parts Management Software</h1>
                   </div>
                   <form class="user" role="form" action="processlogin.php" method="post">
                     <div class="form-group">

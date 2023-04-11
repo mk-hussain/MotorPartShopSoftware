@@ -30,7 +30,7 @@ session_start();
                     mysqli_query($db,$query)or die (mysqli_error($db));
 
                     }
-                    $date_curr = date("d/m/Y");
+                    $date_curr = date('m/d/Y h:i:s a', time());
                     $query111 = "INSERT INTO `transaction`
                                (`TRANS_ID`, `CUST_ID`, `NUMOFITEMS`, `SUBTOTAL`, `LESSVAT`, `NETVAT`, `ADDVAT`, `GRANDTOTAL`, `CASH`, `DATE`, `TRANS_D_ID`)
                                VALUES (Null,'{$customer}','{$countID}','{$subtotal}','{$lessvat}','{$netvat}','{$addvat}','{$total}','{$cash}','{$date_curr}','{$today}')";

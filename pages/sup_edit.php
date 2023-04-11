@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -41,7 +41,7 @@ include'../includes/sidebar.php';
       
             <form role="form" method="post" action="sup_edit1.php">
               <input type="hidden" name="id" value="<?php echo $zz; ?>" />
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Company Name:
                 </div>
@@ -49,7 +49,7 @@ include'../includes/sidebar.php';
                   <input class="form-control" placeholder="Company Name" name="name" value="<?php echo $a; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Province:
                 </div>
@@ -57,7 +57,7 @@ include'../includes/sidebar.php';
                   <input class="form-control" placeholder="Province" name="province" value="<?php echo $b; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  City:
                 </div>
@@ -65,7 +65,7 @@ include'../includes/sidebar.php';
                    <input class="form-control" placeholder="City/Municipality" name="city" value="<?php echo $c; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
+              <div class="form-group row text-left text-primary">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Phone Number:
                 </div>
@@ -75,7 +75,7 @@ include'../includes/sidebar.php';
               </div>
               <hr>
 
-                <button type="submit" class="btn btn-warning btn-block"><i class="fa fa-edit fa-fw"></i>Update</button>    
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-edit fa-fw"></i>Update</button>    
               </form>  
             </div>
           </div></center>

@@ -13,7 +13,7 @@ include'../includes/sidebar.php';
 ?>
   <script type="text/javascript">
     //then it will be redirected
-    alert("Restricted Page! You will be redirected to POS");
+    alert("Restricted Page! You will be redirected to Point of Sale");
     window.location = "pos.php";
   </script>
 <?php
@@ -30,7 +30,7 @@ $query2 = 'SELECT NAME FROM product p join category c on p.CATEGORY_ID=c.CATEGOR
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0"> 
+                <table class="table table-striped" id="dataTable" width="100%" cellspacing="0"> 
                <thead>
                    <tr>
                      <th>Product Code</th>
@@ -58,7 +58,7 @@ $query = 'SELECT PRODUCT_ID, PRODUCT_CODE, NAME, QTY_STOCK, ON_HAND, CNAME, COMP
                 echo '<td>'. $row['COMPANY_NAME'].'</td>';
                 echo '<td>'. $row['DATE_STOCK_IN'].'</td>';
                 echo '<td align="right">
-                      <a type="button" class="btn btn-warning bg-gradient-warning" href="inv_edit.php?action=edit & id='.$row['PRODUCT_ID']. '"><i class="fas fa-fw fa-edit"></i> Edit</a>
+                      <a type="button" class="btn btn-primary bg-gradient-primary" href="inv_edit.php?action=edit & id='.$row['PRODUCT_ID']. '"><i class="fas fa-fw fa-edit"></i> Edit</a>
                           </div></td>';
                 echo '</tr> ';
                         }
